@@ -34,10 +34,10 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.6
         
       - name: Restore Nuget packages
-        run: nuget restore BugGuardian.WebForms.sln
+        run: nuget restore BugGuardian.MVC.sln
         
       - name: Build the Solution
-        run: msguild BugGuardian.WebForms.sln
+        run: msguild BugGuardian.MVC.sln
         
         
       
